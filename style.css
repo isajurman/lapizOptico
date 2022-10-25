@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* NAV */
+
+.nav {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 35px;
+    height: 40px;
+    background-color: #252525;
+    color: #fff;
+}
+
+#logo {
+    color: transparent;
+    background-image: repeating-linear-gradient(320deg, #00ffff, #8dfa52);
+    -webkit-background-clip: text;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.nav li {
+    margin: 0px 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* CONTAINERS */
+.container {
+    padding: 10px 50px;
+}
+
+.title1,
+.subtitle {
+    text-align: center;
+    margin: 20px;
+}
+
+.title {
+    margin: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.list {
+    padding-left: 50px;
+}
+
+.list li {
+    margin: 15px;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 30px;
+    background: #252525;
+    width: 100%;
+    height: auto;
+
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    padding: 20px;
+
+}
+
+.footer ul li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.25s;
+}
+
+.footer ul li a:hover {
+    color: transparent;
+    background-image: repeating-linear-gradient(320deg, #00ffff, #8dfa52);
+    -webkit-background-clip: text;
+
+    transform: translateY(-3px);
+}

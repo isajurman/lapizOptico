@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"> <!-- metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./style.css">
+    <title>Trabajo Practico SPD</title>
+</head>
+
+<body>
+    <div class="nav">
+        <h2 ><a href="#" id="logo"> Grupo B </a></h2>
+        <div>
+            <ul>
+                <li><a href="#caracteristicas">Características</a></li>
+                <li><a href="#funcionamiento">Funcionamiento</a></li>
+                <li><a href="#actualidad">Actualidad del lápiz óptico</a></li>
+                <li><a href="#protocolos">Protocolos</a></li>
+                <li><a href="#drivers">Drivers</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <h1 class="title1">Investigación sobre lápiz óptico</h1>
+    <h2 class="subtitle">Un lápiz óptico es un dispositivo señalador que es similar a una pluma. Se utiliza para
+        dibujar en la pantalla del monitor.</h2>
+
+    <div class="container" id="caracteristicas">
+        <h2 class="title">Caracteristicas</h2>
+        <ul class="list">
+            <li>
+                Es un <b>periférico de entrada para computadoras</b>, en forma de una lápiz fotosensible.
+            </li>
+            <li>
+                Puede ser <b>utilizado para apuntar a objetos</b> mostrados en un televisor de CRT o un monitor, en una
+                manera similar a una pantalla táctil pero con mayor exactitud posicional.
+            </li>
+            <li>
+                Es utilizado mayormente en los ordenadores como una forma de <b>reemplazar al mouse</b>, o bien a las
+                pantallas
+                táctiles, solo que con menor exactitud que estas últimas.
+            </li>
+        </ul>
+    </div>
+
+    <div class="container" id="funcionamiento">
+        <h2 class="title">Funcionamiento</h2>
+        <div>
+            <p>
+                Para su funcionamiento requiere de un driver específico y de un software especialmente diseñado que
+                permita
+                su reconocimiento para trabajar junto a un monitor; de esta manera, aprovecha las cualidades
+                fotosensibles
+                del lápiz brindando mayor precisión que un mouse. Poniendo en contexto, un driver o driver es una pieza
+                de
+                código escrita para poder interpretar información recibida de un hardware externo y enviarla al sistema
+                operativo, consiguiendo interactuar con el dispositivo. Pueden ser necesarios muchos drivers para
+                procesar
+                toda la información entrante.
+
+                Actualmente es un dispositivo en desuso, reemplazado por tecnologías más prácticas como las pantallas
+                táctiles. Para mantener una imagen, las pantallas envían constantemente un haz de electrones que va fila
+                por
+                fila actualizando los píxeles. Esto es aprovechado por el lápiz óptico para detectar la posición
+                mediante su
+                sensor; En el momento en que la punta del lápiz se coloca sobre la pantalla, éste escanea por medio de
+                un
+                sensor infrarrojo el momento en que el haz de electrones pasa por esa posición.
+
+                El hecho de que la actualización de píxeles sea tan precisa permite conocer el tiempo estimado que tarda
+                en
+                actualizarse un pixel en específico. El driver trabaja con un cronómetro que comienza a contar al mismo
+                tiempo que la pantalla, por lo que, al momento en que ocurre la coincidencia, el lápiz óptico comunica
+                el
+                tiempo donde se encontró con el haz de electrones y lo compara con el tiempo que tiene la pantalla,
+                obteniendo la posición exacta del pixel.
+            </p>
+            <img src="img/funcionamiento.png">
+        </div>
+
+
+    </div>
+
+    <div class="container" id="actualidad">
+        <h2 class="title">Actualidad del óptico</h2>
+        <p>
+            Como se mencionó anteriormente, la llegada de los modernos dispositivos de pantalla táctil capacitiva,
+            particularmente el iPhone, hizo que los lápices ópticos cayeran en desuso durante algunos años, debido a la
+            poca practicidad que generaban los mismos (ej.: debían ser sostenidos sobre una pantalla en vertical).
+            Actualmente se utilizan mayormente versiones con una tableta digitalizadora para el ingreso de la posición
+            del lápiz. Su funcionamiento es similar al descrito anteriormente: utiliza una malla de alambres que emite y
+            recibe señales electromagnéticas. El circuito interno del lápiz permite enviar la información sobre la
+            posición a la pantalla para posteriormente ser enviado al ordenador.
+            Hoy por hoy, se encuentran principalmente dos tipos de lápices ópticos aún utilizados en el mercado:
+        </p><br>
+        <ul class="list">
+            <li>
+                Lápices ópticos pasivos: son básicamente un reemplazo de dedo. Como resultado, funcionan en la mayoría
+                de los dispositivos de pantalla capacitiva pero no son muy útiles. No requieren pilas y funcionan en la
+                mayoría de los dispositivos de pantalla táctil, siempre que sean pantallas capacitivas.
+            </li>
+            <li>
+                Lápices ópticos activos: son mucho más avanzados e incluyen características como sensibilidad a la
+                presión, soporte de inclinación y más. Usa un digitalizador integrado en la pantalla, a través del cual
+                permite la comunicación entre la pantalla táctil y el lápiz.
+            </li>
+        </ul>
+        <p>
+            Muchos de los lápices presentes en el mercado suelen ser compatibles únicamente con dispositivos que
+            comparten su marca. Para esto existen algunas iniciativas por parte de empresas que intentan generar un
+            estándar que sea compatible en todos los dispositivos táctiles.
+        </p>
+    </div>
+    <div class="container" id="protocolos">
+        <h2 class="title">Protocolos</h2>
+        <p>
+            Se definen un conjunto de reglas para conseguir una comunicación bidireccional entre el lápiz y la
+            computadora; esto permite que el lápiz recuerde las preferencias del usuario para el color de la tinta y el
+            trazo, además de recibir distintos tipos de información sobre la fuerza del trazo, velocidad y orientación
+            del lápiz.
+        </p>
+    </div>
+    <div class="container" id="drivers" class="container img">
+        <h2 class="title">Drivers</h2>
+        <p>Los drivers de un dispositivo son accedidos en las siguientes situaciones:</p>
+
+        <ul class="list">
+            <li>
+                Inicialización del sistema: El kernel llama a los drivers cuando se inicia el sistema para ver cuales
+                están disponibles e inicializar los dispositivos. El kernel es el núcleo del sistema operativo, y se
+                encarga principalmente de mediar entre los procesos de usuario y el hardware disponible en la máquina,
+                es decir, concede el acceso al hardware al software que lo solicite, de una manera segura; y el
+                procesamiento paralelo de varias tareas.
+            </li>
+            <li>
+                Llamadas del sistema debido a procesos del usuario: El kernel llama al driver para activar o desactivar
+                el dispositivo en función de las necesidades presentes.
+            </li>
+            <li>
+                Llamados a nivel del usuario: Pueden ser llamados directamente por el usuario.
+            </li>
+            <li>
+                Interrupciones del dispositivo: El kernel llama al driver del dispositivo para que maneje las
+                interrupciones generadas por éste.
+            </li>
+            <li>
+                Reinicios del bus: El kernel puede llamar a los drivers de un dispositivo para reiniciar al driver y/o
+                dispositivo cuando se resetea el bus. El bus es el camino del CPU al dispositivo.
+            </li>
+        </ul>
+        <p>El siguiente diagrama ilustra cómo interactúa el driver de un dispositivo con el resto del sistema.</p>
+        <img src="img/drivers.png">
+        <p>
+            Cuando el dispositivo es conectado, el kernel solicita el driver del dispositivo para inicializarlo. Si el
+            usuario quiere utilizar el dispositivo, el sistema operativo debe cargar los drivers y llamar a la función
+            específica que se quiere realizar. El driver se encarga de enviar las instrucciones exactas al dispositivo
+            para ejecutar la acción. En el momento en el que las instrucciones fueron completadas, el dispositivo
+            devuelve la información resultante al driver, el cual genera una interrupción en el curso de ejecución
+            actual para procesar la información recibida. Finalmente, el procesador envía la información al sistema
+            operativo para ejecutar las acciones solicitadas por el usuario.
+        </p>
+        <br>
+    </div>
+    <div class="container img">
+        <h2 class="title">Drivers para lápiz óptico</h2>
+        <p>
+            Para entender el funcionamiento de un lápiz óptico actual, debemos entender el concepto de bus de la
+            computadora. El bus es un sistema de comunicación que transfiere datos entre componentes, ya sea a través de
+            cables, pistas del circuito o componentes como capacitores y circuitos integrados.
+            Un lápiz integrado a un sistema operativo puede utilizar cualquiera de los drivers que la empresa de éste
+            provee para conectarse. Para esto el bus debe proporcionar el driver de minipuerto HID (“dispositivo de
+            interfaz humana”) compatible con el sistema operativo. Al conjunto de drivers necesarios para el
+            funcionamiento de un dispositivo se lo conoce como “stack” o “pila” en español. A modo de ilustración, en el
+            siguiente diagrama se muestra la pila de drivers de Windows 11 para un dispositivo pen (lápiz óptico de
+            Microsoft).
+        </p>
+        <br>
+        <img src="img/driversOptico.png">
+        <p>
+            Este stack de controladores es un ejemplo de los elementos que conforman la estructura que sigue el lápiz
+            óptico para Windows 11. Es necesario un análisis sobre las estructuras de stacks que siguen otros sistemas
+            operativos para permitir el correcto funcionamiento del dispositivo.
+        </p>
+    </div>
+    <div class="footer">
+        <ul>
+            <li><a href="https://learn.microsoft.com/es-es/windows-hardware/drivers/gettingstarted/what-is-a-driver-">
+                    Microsoft
+                </a></li>
+            <li><a href="https://tareadeinformaticacreaciondeunblog.blogspot.com/">
+                    Blogspot
+                </a></li>
+            <li><a href="https://www.computerlanguage.com/results.php?definition=light+pen">
+                    Computer Language
+                </a></li>
+            <li><a
+                    href="https://learn.microsoft.com/en-us/windows-hardware/design/component-guidelines/pen-device-bus-connectivity">
+                    Microsoft
+                </a></li>
+            <li><a href="https://docs.oracle.com/cd/E19120-01/open.solaris/819-3159/emjjs/index.html">
+                    Oracle
+                </a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
